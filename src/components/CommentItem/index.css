@@ -1,0 +1,107 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.list-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile {
+  background-color: #b91c1c;
+  text-align: center;
+  padding: 4px;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  color: #dee0e3;
+  margin-right: 4px;
+}
+
+.profile-name {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.time {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+
+.comment-text {
+  align-self: center;
+  color: #64748b;
+  font-family: 'Roboto';
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-card {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.like {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.delete-img {
+  height: 20px;
+  width: 20px;
+}
+
+.line {
+  border: 1px solid #94a3b8;
+}
+
+.active-like {
+  color: #0ea5e9;
+}

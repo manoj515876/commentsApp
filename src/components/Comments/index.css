@@ -1,0 +1,104 @@
+.container {
+  padding: 60px;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 46px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.para {
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+.input-name {
+  border: 1px solid #cbd2d9;
+  width: 300px;
+  height: 30px;
+  font-family: 'Roboto';
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.input-comment {
+  border: 1px solid #cbd2d9;
+  width: 300px;
+  height: 100px;
+  font-family: 'Roboto';
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.btn {
+  background-color: #0284c7;
+  color: #cbd2d9;
+  font-family: 'Roboto';
+  border-width: 0px;
+  width: 120px;
+  height: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.comment-img {
+  height: 200px;
+  width: 200px;
+}
+
+.line-break {
+  color: #94a3b8;
+}
+
+@media Screen and (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+  .comment-img {
+    order: -1;
+  }
+}
+
+.comments-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.comments-count {
+  background-color: #0284c7;
+  padding: 4px;
+  color: #dee0e3;
+  border-radius: 4px;
+}
+
+.para-comment {
+  color: #334155;
+  font-family: 'Roboto';
+  margin-left: 4px;
+}
+
+.last-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
